@@ -11,7 +11,6 @@ def won?(board)
     win1 = board[x[1]]
     win2 = board[x[2]]
     win3 = board[x[3]]
-
     if (win1 == "X" || win1 == "O") && (win2 == "X" || win2 == "O") && (win3 == "X" || win3 == "O")
       return x
     end
