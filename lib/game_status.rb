@@ -16,4 +16,3 @@ def won?(board)
       return x
     end
   end
-end
