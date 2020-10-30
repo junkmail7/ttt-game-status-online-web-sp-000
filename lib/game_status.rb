@@ -8,9 +8,9 @@ WIN_COMBINATIONS =[ [0,1,2] , [3,4,5] , [6,7,8] , [0,3,6] , [1,4,7] , [2,5,8] , 
 
 def won?(board)
   WIN_COMBINATIONS.each do |x|
-    row = x[1]
-    row2 = x[2]
-    row3 = x[3]
+    row = x[0]
+    row2 = x[1]
+    row3 = x[2]
     win1 = board[row]
     win2 = board[row2]
     win3 = board[row3]
