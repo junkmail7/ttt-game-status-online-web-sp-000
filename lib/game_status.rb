@@ -12,9 +12,9 @@ def won?(board)
     index1 = x[1]
     index2 = x[2]
 
-    position_1 = board[index_0]
-    position_2 = board[index_1]
-    position_3 = board[index_2]
+    position_1 = board[index]
+    position_2 = board[index1]
+    position_3 = board[index2]
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return x
